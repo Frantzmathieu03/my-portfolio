@@ -1,0 +1,22 @@
+header {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+nav li.active {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
